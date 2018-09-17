@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Close Similar Tabs",
+  "author": "Frank Wang",
+  "version": "0.0.1",
+  "applications": {
+	  "gecko": {
+		"id": "ff-close-similar-tabs.git.webdkt@gmail.com"
+	  }
+	},
+  "description": "Close tabs from same host",
+  "icons": {
+    "48": "tabs.svg",
+	"96": "tabs.svg"
+  },
+
+ "background": {
+    "scripts": ["background.js"]
+},
+
+
+  "permissions": [
+	"activeTab",
+	"menus",
+	"tabs"
+  ]
+}
